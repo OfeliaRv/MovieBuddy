@@ -1,0 +1,236 @@
+#left-navbar-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+#left-navbar-section #left-navbar {
+  height: 100vh;
+  width: 80px;
+  position: absolute;
+  top: 0;
+  background-color: #2a2a2b;
+}
+
+#left-navbar-section #left-navbar #left-profile {
+  height: 13vh;
+}
+
+#left-navbar-section #left-navbar #left-profile #profile-picture {
+  margin: 27px 10px;
+  border-radius: 100%;
+  height: 60px;
+  width: 60px;
+  background-color: white;
+}
+
+#left-navbar-section #left-navbar-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 83vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#left-navbar-section #left-navbar-icons .icon-item {
+  margin: 18px;
+  cursor: pointer;
+}
+
+#left-navbar-section #left-navbar-icons .icon-item i,
+#left-navbar-section #left-navbar-icons .icon-item span,
+#left-navbar-section #left-navbar-icons .icon-item img {
+  font-size: 24px;
+  color: white;
+  width: 24px;
+  height: 24px;
+}
+
+#left-navbar-section #left-navbar-icons #left-top-icons .icon-item {
+  margin: 21px;
+}
+
+#left-navbar-section #left-navbar-icons #left-top-icons .icon-item i,
+#left-navbar-section #left-navbar-icons #left-top-icons .icon-item span,
+#left-navbar-section #left-navbar-icons #left-top-icons .icon-item img {
+  font-size: 37px;
+  width: 37px;
+  height: 37px;
+}
+
+#top-navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 115px;
+  width: 100%;
+  background-color: orange;
+}
+
+#top-navbar #top-logo h3 {
+  font-family: "Special Elite", cursive;
+  font-size: 40px;
+  margin: 12px;
+  font-weight: 700;
+}
+
+#top-navbar-list-container {
+  width: 85%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#top-navbar-list-container #top-navbar-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#top-navbar-list-container #top-navbar-list .hoverable:hover .select-nav {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+#top-navbar-list-container #top-navbar-list .list-item .select-nav {
+  position: absolute;
+}
+
+#top-navbar-list-container #top-navbar-list .list-item .select-nav-list {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#top-navbar-list-container #top-navbar-list .list-item .select-nav-list-item {
+  cursor: pointer;
+  width: 120px;
+  border: 0.5px solid black;
+  padding: 10px;
+  background-color: white;
+}
+
+#top-navbar-list-container #top-navbar-list .list-item .select-nav-list-item a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 17px;
+}
+
+#top-navbar-list-container #top-navbar-list li {
+  list-style: none;
+  margin: auto 10px;
+}
+
+#top-navbar-list-container #top-navbar-list li a {
+  text-decoration: none;
+  color: black;
+  font-size: 21px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#top-navbar-list-container #top-navbar-list li a i {
+  font-size: 21px;
+}
+
+#searchbox-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  margin: 20px auto;
+  border-radius: 18px;
+  -webkit-box-shadow: 9px 9px 20px 0px #ebe9e6;
+          box-shadow: 9px 9px 20px 0px #ebe9e6;
+}
+
+#searchbox-container #searchbox {
+  width: 90%;
+  height: 55px;
+  border-bottom-left-radius: 18px;
+  border-top-left-radius: 18px;
+}
+
+#searchbox-container #searchbox input {
+  height: 100%;
+  border-bottom-left-radius: 18px;
+  border-top-left-radius: 18px;
+  padding: 0 !important;
+  margin: 0;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 20px;
+}
+
+#searchbox-container #searchbutton {
+  width: 10%;
+  border-bottom-right-radius: 18px;
+  border-top-right-radius: 18px;
+  overflow: hidden;
+}
+
+#searchbox-container #searchbutton #search {
+  background-color: chocolate;
+  border-bottom-right-radius: 18px;
+  border-top-right-radius: 18px;
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+.movie-card {
+  width: 200px;
+  height: 290px;
+  margin: 20px 13px;
+}
+
+.movie-card .card-img {
+  height: 90%;
+}
+
+.movie-card .card-img img {
+  height: 260px;
+  width: 200px;
+}
+
+.movie-card .card-data {
+  height: 10%;
+  margin: 10px 0;
+}
+/*# sourceMappingURL=style.css.map */

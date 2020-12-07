@@ -1,0 +1,19 @@
+.movie-card {
+    width: 200px;
+    height: 290px;
+    margin: 20px 13px;
+
+    .card-img {
+        height: 90%;
+
+        img {
+            height: 260px;
+            width: 200px;
+        }
+    }
+
+    .card-data {
+        height: 10%;
+        margin: 10px 0;
+    }
+}

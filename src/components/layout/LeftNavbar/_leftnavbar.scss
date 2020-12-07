@@ -1,0 +1,60 @@
+#left-navbar-section {
+    display: flex;
+    justify-content: flex-end;
+
+    #left-navbar {
+        height: 100vh;
+        width: 80px;
+        position: absolute;
+        top: 0;
+        background-color: rgb(42, 42, 43);
+
+        #left-profile {
+            height: 13vh;
+
+            #profile-picture {
+                margin: 27px 10px;
+                border-radius: 100%;
+                height: 60px;
+                width: 60px;
+                background-color: white;
+            }
+        }
+
+        &-icons {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            height: 83vh;
+            align-items: center;
+
+            .icon-item {
+                margin: 18px;
+                cursor: pointer;
+
+                i,
+                span,
+                img {
+                    font-size: 24px;
+                    color: white;
+                    width: 24px;
+                    height: 24px;
+                }
+            }
+
+            #left-top-icons {
+                .icon-item {
+                    margin: 21px;
+
+                    i,
+                    span,
+                    img {
+                        font-size: 37px;
+                        width: 37px;
+                        height: 37px;
+                    }
+                }
+            }
+        }
+    }
+}
